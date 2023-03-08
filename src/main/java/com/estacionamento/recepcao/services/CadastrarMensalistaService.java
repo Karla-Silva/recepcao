@@ -31,8 +31,11 @@ public class CadastrarMensalistaService {
                     VagaRequest vagaRequest = new VagaRequest();
                     vagaRequest.setPlaca(cadastrarMensalistaRequest.getPlaca());
                     ocuparVagaMensalistaClient.ocuparVagaMensalista(vagaRequest);
-
-                    //financeiro cadastrar mensalista
+                    
+                    cliente.setIdentificador(UUID.randomUUID().toString());
+                    log.info("Cliente de ID {}",cliente.getIdentificador());
+                       return clienteRepository.findById(cliente.getCpf())
+                    .orElse(clienteRepository.save(cliente));
 
                     retorno = "Cadastro realizado";
                 }else{retorno="Não há vagas para mensalistas.";}
