@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 @RequiredArgsConstructor
-public class CadastrarMensalista {
+public class CadastrarMensalistaService {
     private final MensalistaRepository mensalistaRepository;
 
     public String execute(CadastrarMensalistaRequest cadastrarMensalistaRequest){
