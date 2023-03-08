@@ -7,13 +7,12 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.BodyInserters;
 import org.springframework.web.reactive.function.client.WebClient;
 
-
 @Service
-public class OcuparVagaClient {
-    @Value("http://localhost:9081/patio/ocuparvaga")
+public class OcuparVagaMensalistaClient {
+    @Value("http://localhost:9081/patio/ocuparvagamensalista")
     private String requestAdress;
 
-    public void ocuparVaga(VagaRequest vagaRequest){
+    public void ocuparVagaMensalista(VagaRequest vagaRequest){
         WebClient webClient = WebClient.create();
         webClient.post().uri(requestAdress)
                 .contentType(MediaType.APPLICATION_JSON)
@@ -21,5 +20,4 @@ public class OcuparVagaClient {
                 .retrieve()
                 .bodyToMono(Void.class);
     }
-
 }

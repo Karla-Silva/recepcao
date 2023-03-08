@@ -4,4 +4,5 @@ import com.estacionamento.recepcao.entities.Cliente;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface VagasRepository extends JpaRepository<Cliente, String> {
+    void deleteByPlaca(String placa);
 }
