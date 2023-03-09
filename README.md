@@ -83,7 +83,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 * **[Trello](https://trello.com/b/Xk50BrK2/projeto-java)**
 * **[Figma](https://www.figma.com/)**
 
-## 📝 Ass
+## 📝 Equipe
 Feito com ❤️ por: <br>
  * Fernanda Savatin [Entre em contato!](https://www.linkedin.com/in/fernanda-savatin/)
  * Karla Silva [Entre em contato!](https://www.linkedin.com/in/karla-de-morais-silva-821296165/)
