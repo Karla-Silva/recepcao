@@ -29,7 +29,6 @@ Esta etapa do curso BackEnd Java do programa \<Dev>ª - B³/Let's Code (Ada) con
   
    <p align="center">
  ![image](https://user-images.githubusercontent.com/96498080/223885615-ffd2b1c0-9996-4d32-adde-7da63ebf67b7.png)
- </p>
  
  Escolhemos como tema do projeto um sistema de controle para um estaciomento. 
 
@@ -38,7 +37,6 @@ Esta etapa do curso BackEnd Java do programa \<Dev>ª - B³/Let's Code (Ada) con
 
  <p align="center">
 ![image](https://user-images.githubusercontent.com/96498080/223865181-ed9ad2b9-9063-4ecb-ada2-8ae4643ce66d.png)
-</p>
 
 ## 👩‍🏫 Microsserviços -> Endpoints
   * 👩‍💼Recepção -> 
