@@ -70,9 +70,8 @@ Esta etapa do curso BackEnd Java do programa \<Dev>ª - B³/Let's Code (Ada) con
     Foram criadas funções dentro de Service: Consultar vaga de mensalista, consultar vaga de clientes gerais, Devolver carro, Ocupar vaga de cliente mensalista e Ocupar vaga de cliente geral.
     
   * 💵Financeiro:
-    Criamos as seguintes entidades e seus elementos: Cliente (Id, CPF, Identificador Placa, Nome), Item (Id, Preço, Quantidade, Vaga e Pagamento), Pagamento (Id, Cliente, Data da Criação, Itens), Vaga (Id e Indentificador Placa) e Relatório Fornecedor.
-    Foram criadas funções dentro de Client: 
-    Foram criadas funções dentro de Service: Salvar pagamento.
+    Criamos as seguintes entidades e seus elementos: Cliente (Id, CPF, Identificador Placa, Nome), Item (Id, Preço, Quantidade, Vaga e Pagamento), Pagamento (Id, Cliente, Data da Criação, Itens), Vaga (Id e Indentificador Placa) e Relatório Fornecedor (Valor e Identificador).
+    Foram criadas funções dentro de Service: Salvar vaga, Salvar cliente e Salvar pagamento.
     
     
  
