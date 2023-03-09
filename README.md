@@ -28,7 +28,7 @@ Esta etapa do curso BackEnd Java do programa \<Dev>ª - B³/Let's Code (Ada) con
 </p>
   
    <p align="center">
- ![image](https://user-images.githubusercontent.com/96498080/223864190-af528375-1d90-4a75-8481-e57cfbd1038e.png)
+ ![image](https://user-images.githubusercontent.com/96498080/223885615-ffd2b1c0-9996-4d32-adde-7da63ebf67b7.png)
  </p>
  
  Escolhemos como tema do projeto um sistema de controle para um estaciomento. 
