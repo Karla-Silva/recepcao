@@ -27,7 +27,7 @@ Esta etapa do curso BackEnd Java do programa \<Dev>ª - B³/Let's Code (Ada) con
   <img width="1200" height="200" src="https://ada-site-frontend.s3.sa-east-1.amazonaws.com/home/header-logo.svg">
 </p>
   
-              ![image](https://user-images.githubusercontent.com/96498080/223885615-ffd2b1c0-9996-4d32-adde-7da63ebf67b7.png)
+  ![image](https://user-images.githubusercontent.com/96498080/223885615-ffd2b1c0-9996-4d32-adde-7da63ebf67b7.png)
  
  Escolhemos como tema do projeto um sistema de controle para um estaciomento. 
 
@@ -37,26 +37,26 @@ Esta etapa do curso BackEnd Java do programa \<Dev>ª - B³/Let's Code (Ada) con
 ![image](https://user-images.githubusercontent.com/96498080/223865181-ed9ad2b9-9063-4ecb-ada2-8ae4643ce66d.png)
 
 ## 👩‍🏫 Microsserviços -> Endpoints
-  * 👩‍💼Recepção -> 
-                    - Receber Cliente
-                    - Cadastrar Mensalista
-                    - Registrar Saída
+  * 👩‍💼Recepção -> [Repositório](https://github.com/Karla-Silva/recepcao)
+    * Receber Cliente
+    * Cadastrar Mensalista
+    * Registrar Saída                 
+          
+  * 🅿️Pátio -> [Repositório](https://github.com/Karla-Silva/patio)
+    * Consultar Vagas
+    * Consultar Vagas Mensalistas
+    * Ocupar Vagas
+    * Ocupar Vagas Mensalista
+    * Devolver Carro
                   
-  * 🅿️Pátio ->
-                    - Consultar Vagas
-                    - Consultar Vagas Mensalistas
-                    - Ocupar Vagas
-                    - Ocupar Vagas Mensalista
-                    - Devolver Carro
-                  
-  * 💵Financeiro ->
-                    - Pagamento
-                    - Relatório
+  * 💵Financeiro -> [Repositório](https://github.com/Karla-Silva/financeiro)
+    * Pagamento
+    * Relatório
                    
  
 ## 👩‍💻Desenvolvimento
    
-  * 👩‍💼Recepção
+  * 👩‍💼Recepção:
     Criamos as seguintes entidades e seus elementos: Cliente (Id, Placa e Nome) e Mensalista (Id, Placa, Nome e Cartão de Crédito).
     Foram criadas funções dentro de Client: Devolver carro do cliente, Ocupar vagas para clientes gerais, Ocupar vagas para clientes mensalista, Consultar vagas de cliente gerais e Consultar vagas de clientes mensalistas.
     Foram criadas funções dentro de Service: Cadastrar cliente mensalista, Receber cliente e Registro de saída do carro.
