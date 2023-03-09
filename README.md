@@ -27,15 +27,13 @@ Esta etapa do curso BackEnd Java do programa \<Dev>ª - B³/Let's Code (Ada) con
   <img width="1200" height="200" src="https://ada-site-frontend.s3.sa-east-1.amazonaws.com/home/header-logo.svg">
 </p>
   
-   <p align="center">
- ![image](https://user-images.githubusercontent.com/96498080/223885615-ffd2b1c0-9996-4d32-adde-7da63ebf67b7.png)
+              ![image](https://user-images.githubusercontent.com/96498080/223885615-ffd2b1c0-9996-4d32-adde-7da63ebf67b7.png)
  
  Escolhemos como tema do projeto um sistema de controle para um estaciomento. 
 
   
 ## 🔀 Diagrama
 
- <p align="center">
 ![image](https://user-images.githubusercontent.com/96498080/223865181-ed9ad2b9-9063-4ecb-ada2-8ae4643ce66d.png)
 
 ## 👩‍🏫 Microsserviços -> Endpoints
